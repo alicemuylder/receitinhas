@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#voltar{
+    display: block;
+    padding: 10px;
+    background-color:hotpink;
+    color:palevioletred;
+    text-align: left;
+    background-color:lightpink;
+}
+head {
+    text-align: center;
+    vertical-align: middle;
+    display: flexbox;
+    justify-content: center;
+    background-color:lightpink;
+}
+.logo {
+    max-width: 250px;
+    max-height: auto;
+}
+a {
+    display: block;
+    padding: 10px;
+    background-color:palevioletred;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  img{
+    max-width: 300px;
+  }
+  #lista1{
+    text-align: center;
+    vertical-align: middle;
+    display: flexbox;
+    justify-content: center;
+  }
+  body{
+    background-color:lightpink;
+    text-align: center;
+  }
+  h1,h2,h3{
+    text-align: center;
+    color: palevioletred;
+  }
+  
+  h5{
+    text-align:left;
+    color:black
+  }
+  h4{
+    text-align:center;
+    color: black;
+  }
+  #card-group{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* Estilizando os cards */
+  .card{flex: 0 0 calc(50%); /* Divide as colunas igualmente em quatro colunas com espaço entre elas */
+    max-width: calc(25%); /* Divide as colunas igualmente em quatro colunas com espaço entre elas */
+    margin-right: 10px;
+    margin-left: 10PX; /* Espaço entre os cards (você pode ajustar conforme necessário) */
+    box-sizing: border-box; /* Garante que as margens não aumentem a largura total do card */
+    float: left; /* Faz com que os cards flutuem para a esquerda */
+    border: 1px solid #000000;
+    } 
+/* Estilo para a classe 'row' com duas colunas em telas médias e maiores *
+
+/* Estilo para o título do card */
+.card-title {
+  font-size: 1.25rem; /* Tamanho da fonte do título */
+}
+
+/* Estilo para o texto do card */
+.card-text {
+  font-size: 1rem; /* Tamanho da fonte do texto */
+}
+
+/* Estilizando a imagem do card */
+.card-img-top {
+  max-width: 100%; /* Imagem ajusta ao tamanho do card */
+  height: auto; /* Mantém a proporção da imagem */
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.letrareceita{
+text-align: left;
+color:palevioletred;
+}
+
+.letra2{
+  text-align: left;
+  color: black;
+}
+
+
+
+
+
